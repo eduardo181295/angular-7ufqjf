@@ -1,1 +1,15 @@
 <h5>Captura de información</h5>
+<div>
+  <form>
+    Nombre <input type="text" [(ngModel)]="nombre" [ngModelOptions]="{standalone: true}"><br><br>
+    Paterno <input type="text" [(ngModel)]="paterno" [ngModelOptions]="{standalone: true}"><br><br>
+    Materno <input type="text" [(ngModel)]="materno" [ngModelOptions]="{standalone: true}"><br><br>
+    <input type="button" value="Enviar" (click) = "enviar()">
+  </form>
+</div><br>
+<div>
+  <h6>Validación de datos</h6>
+  <p>Nombre completo: {{nombre}} {{paterno}} {{materno}}</p>
+</div>
+<br>
+<br>
