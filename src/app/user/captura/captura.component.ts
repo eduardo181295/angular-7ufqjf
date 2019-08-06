@@ -12,7 +12,7 @@ export class userCapturaComponent  {
 
 
 public enviar(){
-  console.log("User to save [" + this.nombre + " " +  this.paterno + " " +  this.materno + "]");
+  
 }
 
 
